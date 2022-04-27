@@ -174,7 +174,7 @@ function connect(){
                 client.publish('disconnect');
                 client.log(
                     (client.config.id),
-                    'exceeded connection rety amount of',
+                    'exceeded connection retry amount of',
                     ' or stopRetrying flag set.'
                 );
 
